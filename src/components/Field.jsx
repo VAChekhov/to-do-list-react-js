@@ -4,7 +4,9 @@
     id,
     label,
     type = 'text',
-
+    value,
+    onInput,
+    ref,
   } = props
 
   return (
@@ -21,6 +23,9 @@
         placeholder=" "
         autoComplete="off"
         type={type}
+        value={value}
+        onInput={onInput}
+        ref={ref}
       />
     </div>
   )
