@@ -1,12 +1,39 @@
-# React + Vite
+# 📝 TodoList — React-приложение для управления задачами
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+https://vachekhov.github.io/to-do-list-react-js/
 
-Currently, two official plugins are available:
+Простое и функциональное приложение для ведения списка дел, разработанное с использованием **React**.  
+В проекте реализованы базовые и продвинутые концепции React: работа с состоянием, контекстом, побочными эффектами и оптимизацией рендеров.  
+Структура кода организована по принципам **Feature-Sliced Design (FSD)**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Цель проекта
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Проект создан для отработки ключевых навыков React-разработки, включая:
+- управление состоянием компонентов,
+- обработку событий и рендеринг списков,
+- работу с локальным хранилищем (`localStorage`),
+- применение хуков (`useState`, `useEffect`, `useRef`, `useReducer`, `useContext`),
+- реализацию архитектуры по методологии **FSD**.
+
+---
+
+## ⚙️ Используемые технологии
+
+- **React 19**
+- **JavaScript (ES6+)**
+- **React Hooks**
+  - `useState` — локальное состояние задач;
+  - `useEffect` — сохранение и загрузка данных из `localStorage`;
+  - `useRef` — работа с DOM-элементами (например, установка фокуса);
+  - `useContext` — передача состояния приложения без "prop drilling";
+  - `useReducer` — управление логикой обновления состояния (например, добавление, удаление, фильтрация задач).
+- **Feature-Sliced Design (FSD)** — для логичного разделения ответственности и масштабируемости кода.
+- **CSS Modules / SCSS** — модульная стилизация компонентов.
+- **json-server** — локальный сервер для имитации REST API.
+
+---
+
+
+
